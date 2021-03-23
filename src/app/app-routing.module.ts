@@ -4,6 +4,7 @@ import { DefaultLayoutComponent } from './containers/default-layout/default-layo
 import { ReferenceDataComponent } from './views/reference-data/reference-data.component';
 import { HeaderComponent } from './views/header/header.component';
 import { DailyDataComponent } from './views/daily-data/daily-data.component';
+import { StrategiesComponent } from './views/strategies/strategies.component';
 const routes: Routes = [
   {
     path: '',
@@ -19,6 +20,12 @@ const routes: Routes = [
   {
     path: 'dailyData',
     component: DailyDataComponent,
+  }
+  ,
+
+  {
+    path: 'strategies',
+    component: StrategiesComponent,
   }
 ];
 

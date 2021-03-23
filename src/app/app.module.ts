@@ -8,6 +8,8 @@ import { HeaderComponent } from './views/header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DailyDataComponent } from './views/daily-data/daily-data.component';
 import { SidebarComponent } from './views/reference-data/sidebar/sidebar.component';
+import { SidebarStrategiesComponent } from './views/strategies/sidebar/sidebar.component';
+import { StrategiesComponent } from './views/strategies/strategies.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { SidebarComponent } from './views/reference-data/sidebar/sidebar.compone
     ReferenceDataComponent,
     HeaderComponent,
     DailyDataComponent,
-    SidebarComponent
+    SidebarComponent,
+    StrategiesComponent,
+    SidebarStrategiesComponent
   ],
   imports: [
     BrowserModule,
